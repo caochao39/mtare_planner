@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="tare_planner" type="mobility_boundary_publisher" name="mobility_boundary_publisher" output="screen" ns="sensor_coverage_planner">
+        <rosparam command="load" file="$(find tare_planner)/config/mobility_boundary_publisher.yaml" />
+    </node>
+</launch>

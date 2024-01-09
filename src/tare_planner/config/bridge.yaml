@@ -1,0 +1,279 @@
+topics:
+  -
+    topic: /wheeled0/position # ROS1 topic name
+    type: geometry_msgs/msg/PointStamped  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled1/position # ROS1 topic name
+    type: geometry_msgs/msg/PointStamped  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled2/position # ROS1 topic name
+    type: geometry_msgs/msg/PointStamped  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled3/position # ROS1 topic name
+    type: geometry_msgs/msg/PointStamped  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled4/position # ROS1 topic name
+    type: geometry_msgs/msg/PointStamped  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled5/position # ROS1 topic name
+    type: geometry_msgs/msg/PointStamped  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled6/position # ROS1 topic name
+    type: geometry_msgs/msg/PointStamped  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled7/position # ROS1 topic name
+    type: geometry_msgs/msg/PointStamped  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled8/position # ROS1 topic name
+    type: geometry_msgs/msg/PointStamped  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled9/position # ROS1 topic name
+    type: geometry_msgs/msg/PointStamped  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled10/position # ROS1 topic name
+    type: geometry_msgs/msg/PointStamped  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled11/position # ROS1 topic name
+    type: geometry_msgs/msg/PointStamped  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled12/position # ROS1 topic name
+    type: geometry_msgs/msg/PointStamped  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled13/position # ROS1 topic name
+    type: geometry_msgs/msg/PointStamped  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled14/position # ROS1 topic name
+    type: geometry_msgs/msg/PointStamped  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled15/position # ROS1 topic name
+    type: geometry_msgs/msg/PointStamped  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled16/position # ROS1 topic name
+    type: geometry_msgs/msg/PointStamped  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled17/position # ROS1 topic name
+    type: geometry_msgs/msg/PointStamped  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled18/position # ROS1 topic name
+    type: geometry_msgs/msg/PointStamped  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled19/position # ROS1 topic name
+    type: geometry_msgs/msg/PointStamped  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled20/position # ROS1 topic name
+    type: geometry_msgs/msg/PointStamped  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+
+  -
+    topic: /wheeled0/exploration_info # ROS1 topic name
+    type: tare_msgs/msg/ExplorationInfo  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled1/exploration_info # ROS1 topic name
+    type: tare_msgs/msg/ExplorationInfo  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled2/exploration_info # ROS1 topic name
+    type: tare_msgs/msg/ExplorationInfo  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled3/exploration_info # ROS1 topic name
+    type: tare_msgs/msg/ExplorationInfo  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled4/exploration_info # ROS1 topic name
+    type: tare_msgs/msg/ExplorationInfo  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled5/exploration_info # ROS1 topic name
+    type: tare_msgs/msg/ExplorationInfo  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled6/exploration_info # ROS1 topic name
+    type: tare_msgs/msg/ExplorationInfo  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled7/exploration_info # ROS1 topic name
+    type: tare_msgs/msg/ExplorationInfo  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled8/exploration_info # ROS1 topic name
+    type: tare_msgs/msg/ExplorationInfo  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled9/exploration_info # ROS1 topic name
+    type: tare_msgs/msg/ExplorationInfo  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled10/exploration_info # ROS1 topic name
+    type: tare_msgs/msg/ExplorationInfo  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled11/exploration_info # ROS1 topic name
+    type: tare_msgs/msg/ExplorationInfo  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled12/exploration_info # ROS1 topic name
+    type: tare_msgs/msg/ExplorationInfo  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled13/exploration_info # ROS1 topic name
+    type: tare_msgs/msg/ExplorationInfo  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled14/exploration_info # ROS1 topic name
+    type: tare_msgs/msg/ExplorationInfo  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled15/exploration_info # ROS1 topic name
+    type: tare_msgs/msg/ExplorationInfo  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled16/exploration_info # ROS1 topic name
+    type: tare_msgs/msg/ExplorationInfo  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled17/exploration_info # ROS1 topic name
+    type: tare_msgs/msg/ExplorationInfo  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled18/exploration_info # ROS1 topic name
+    type: tare_msgs/msg/ExplorationInfo  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled19/exploration_info # ROS1 topic name
+    type: tare_msgs/msg/ExplorationInfo  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled20/exploration_info # ROS1 topic name
+    type: tare_msgs/msg/ExplorationInfo  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled0/exploration_finish # ROS1 topic name
+    type: std_msgs/msg/Bool  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled1/exploration_finish # ROS1 topic name
+    type: std_msgs/msg/Bool  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled2/exploration_finish # ROS1 topic name
+    type: std_msgs/msg/Bool  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled3/exploration_finish # ROS1 topic name
+    type: std_msgs/msg/Bool  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled4/exploration_finish # ROS1 topic name
+    type: std_msgs/msg/Bool  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled5/exploration_finish # ROS1 topic name
+    type: std_msgs/msg/Bool  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled6/exploration_finish # ROS1 topic name
+    type: std_msgs/msg/Bool  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled7/exploration_finish # ROS1 topic name
+    type: std_msgs/msg/Bool  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled8/exploration_finish # ROS1 topic name
+    type: std_msgs/msg/Bool  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled9/exploration_finish # ROS1 topic name
+    type: std_msgs/msg/Bool  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled10/exploration_finish # ROS1 topic name
+    type: std_msgs/msg/Bool  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled11/exploration_finish # ROS1 topic name
+    type: std_msgs/msg/Bool  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled12/exploration_finish # ROS1 topic name
+    type: std_msgs/msg/Bool  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled13/exploration_finish # ROS1 topic name
+    type: std_msgs/msg/Bool  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled14/exploration_finish # ROS1 topic name
+    type: std_msgs/msg/Bool  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled15/exploration_finish # ROS1 topic name
+    type: std_msgs/msg/Bool  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled16/exploration_finish # ROS1 topic name
+    type: std_msgs/msg/Bool  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled17/exploration_finish # ROS1 topic name
+    type: std_msgs/msg/Bool  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled18/exploration_finish # ROS1 topic name
+    type: std_msgs/msg/Bool  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled19/exploration_finish # ROS1 topic name
+    type: std_msgs/msg/Bool  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+  -
+    topic: /wheeled20/exploration_finish # ROS1 topic name
+    type: std_msgs/msg/Bool  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1
+
+  # -
+  #   topic: /tracked0/position # ROS1 topic name
+  #   type: geometry_msgs/msg/PointStamped  # ROS2 type name
+  #   queue_size: 1  # For the publisher back to ROS1
+  # -
+  #   topic: /tracked1/position # ROS1 topic name
+  #   type: geometry_msgs/msg/PointStamped  # ROS2 type name
+  #   queue_size: 1  # For the publisher back to ROS1
+  # -
+  #   topic: /tracked2/position # ROS1 topic name
+  #   type: geometry_msgs/msg/PointStamped  # ROS2 type name
+  #   queue_size: 1  # For the publisher back to ROS1
+  # -
+  #   topic: /tracked0/exploration_info # ROS1 topic name
+  #   type: tare_msgs/msg/ExplorationInfo  # ROS2 type name
+  #   queue_size: 1  # For the publisher back to ROS1
+  # -
+  #   topic: /tracked1/exploration_info # ROS1 topic name
+  #   type: tare_msgs/msg/ExplorationInfo  # ROS2 type name
+  #   queue_size: 1  # For the publisher back to ROS1
+  # -
+  #   topic: /tracked2/exploration_info # ROS1 topic name
+  #   type: tare_msgs/msg/ExplorationInfo  # ROS2 type name
+  #   queue_size: 1  # For the publisher back to ROS1

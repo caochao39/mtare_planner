@@ -1,0 +1,10 @@
+pub_coverage_boundary_topic: coverage_boundary
+pub_viewpoint_boundary_topic: viewpoint_boundary
+pub_nogo_boundary_topic: nogo_boundary
+sub_transform_to_darpa_world_topic: /transform_to_darpa_world
+kCoverageAreaBoundaryFilename: ghost.ply
+kViewPointBoundaryFilename: ghost.ply
+kNogoBoundaryFilename: ghost.ply
+kNogoZoneBehindStartGate: true
+kNogoZoneBehindStartGateSizeX: 40
+kNogoZoneBehindStartGateSizeY: 40

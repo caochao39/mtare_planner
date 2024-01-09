@@ -1,0 +1,41 @@
+<launch>
+    <arg name="scenario" default="ugv1" />
+    <arg name="rviz" default="true" />
+    <arg name="rosbag_record" default="false" />
+    <arg name="bag_path" default="~/Desktop" />
+    <arg name="bag_name_prefix" default="tare" />
+    <arg name="robot_id" default="0" />
+    <arg name="robot_num" default="1" />
+    <arg name="use_boundary" default="true" />
+    <arg name="coordination" default="false" />
+    <arg name="waypoint_topic" default="/EXP_wp" />
+    <arg name="test_id" default="0" />
+    <arg name="time_now" value="`date +'%Y-%m-%d-%H-%M-%S'`" />
+
+    <group if="$(arg rviz)">
+        <node launch-prefix="nice" pkg="rviz" type="rviz" name="tare_rviz_$(arg robot_id)" args="-d $(find tare_planner)/rviz/tare_planner_ground.rviz" respawn="true" />
+    </group>
+
+    <group if="$(arg rosbag_record)">
+        <include file="$(find tare_planner)/launch/record_bag.launch">
+            <arg name="robot_id" value="$(arg robot_id)" />
+            <arg name="robot_num" value="$(arg robot_num)" />
+            <arg name="bag_path" value="$(arg bag_path)" />
+            <arg name="bag_name_prefix" value="$(arg test_id)_$(arg bag_name_prefix)" />
+        </include>
+    </group>
+
+    <env name="ROSCONSOLE_FORMAT" value="[${severity}] [${walltime: %Y-%m-%d %H:%M:%S}]: ${message}"/>
+    <node pkg="tare_planner" type="tare_planner_node" name="tare_planner_node" output="screen" ns="sensor_coverage_planner" required="true">
+        <rosparam command="load" file="$(find tare_planner)/config/$(arg scenario).yaml" />
+        <rosparam command="load" file="$(find tare_planner)/config/coordination.yaml" />
+        <param name="robot_id" value="$(arg robot_id)" />
+        <param name="kRobotNum" value="$(arg robot_num)" />
+        <param name="kTestID" value="$(arg test_id)" type="str"/>
+    </node>
+
+    <group if="$(arg use_boundary)">
+        <include file="$(find tare_planner)/launch/coverage_boundary_publisher.launch" />
+    </group>
+
+</launch>

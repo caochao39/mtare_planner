@@ -1,0 +1,18 @@
+#             1        2        3        4        5        6        7        8        9        10       11       12       13       14       15       16       17       18       19       20
+robot_types: [wheeled]
+robot_id: 0
+kRobotNum: 1
+kHeterogeneous: false
+pub_exploration_info_topic_: /exploration_info
+pub_robot_position_topic_: /position
+sub_mobility_boundary_topic_: mobility_boundary
+kCommsRange: 1000.0
+kLostCommsSecThr: 10
+kRelayComms : true 
+kRendezvous : false
+kRendezvousTree : false
+kRendezvousType : 0
+kRendezvousTimeInterval : 20
+kUseTimeBudget : false 
+kInitTimeBudget : 120
+kRobotSpeed : 2.0

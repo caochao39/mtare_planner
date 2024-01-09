@@ -1,0 +1,23 @@
+ply
+format ascii 1.0
+element vertex 8
+property float x
+property float y
+property float z
+end_header
+65 -35 2 
+65 -10 2 
+105 -10 2 
+105 -35 2 
+150 -200 1  
+150 -240 1 
+250 -240 1 
+250 -200 1 
+150 -110 2 
+150 -140 2 
+250 -140 2 
+250 -110 2 
+40 -160 1
+40 -230 1 
+70 -230 1 
+70 -160 1 

@@ -1,0 +1,3 @@
+<launch>
+    <rosparam file="$(find tare_planner)/config/bridge.yaml" />
+</launch>
